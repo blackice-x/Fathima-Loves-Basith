@@ -109,6 +109,26 @@
       transform: translate(-50%, -50%) scale(1);
       animation: click-animation 0.3s ease-out forwards;
     }
+
+    #copy {
+    position: fixed;
+    bottom: 37px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1rem;
+    }
+
+    #copy a {
+        text-decoration: none;
+        color: #476effd7;
+    }
+    #copy p {
+    color: #fff6f9;
+    text-align: center;
+    font-weight: 700;
+    cursor: pointer;
+    }
+
     
     /* Fade out animation */
     @keyframes click-animation {
@@ -221,6 +241,11 @@
             </div>
         </div>
     </div>
+
+    <div id="copy">
+      <p class="text-center text-white text-sm">OG Creator <a
+        href="https://www.instagram.com/aoudumber.dev/reels/#">@aoudumber.dev</a></p>
+      </div>
 
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
